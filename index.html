@@ -40,6 +40,8 @@
   <link href="assets/css/resume.css" rel="stylesheet">
   <link href="assets/css/skills.css" rel="stylesheet">
 
+  <script src="assets/js/utils.js"></script>
+
 </head>
 
 <body>
@@ -47,7 +49,7 @@
   <!-- ======= Mobile nav toggle button ======= -->
   <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
   <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
-  
+
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex flex-column justify-content-center">
     <!-- .nav-menu -->
@@ -76,6 +78,7 @@
         <a href="https://github.com/gioakol" class="" target="_blank"><i class="bx bxl-github"></i></a>
         <a href="https://dev.to/gioakol" class="" target="_blank"><i class="bx bxl-dev-to"></i></a>
         <a href="https://buymeacoffee.com/gioakole" class="" target="_blank"><i class="bx bxs-coffee-togo"></i></a>
+        <a href="#" class="" onclick="DownloadVC()"><i class="bx bx-download"></i></a>
       </div>
     </div>
   </section>
@@ -681,35 +684,36 @@
         <div class="section-title">
           <h2>Personal Portfolio</h2>
         </div>
-        <div class="card-grid">
-          <a class="card" href="https://github.com/gioakol/URLShorten" target="_blank">
-            <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1557177324-56c542165309?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)">
+        <div class="card-portfolio-grid">
+          <a class="card-portfolio" href="https://github.com/gioakol/URLShorten" target="_blank">
+            <div class="card__portfolio__background"
+              style="background-image: url(https://images.unsplash.com/photo-1557177324-56c542165309?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)">
             </div>
-            <div class="card__content">
-              <p class="card__category">Python</p>
-              <h3 class="card__heading">URL Shorten</h3>
+            <div class="card__portfolio__content">
+              <p class="card__portfolio__category">Python</p>
+              <h3 class="card__portfolio__heading">URL Shorten</h3>
             </div>
           </a>
-          <a class="card" href="https://github.com/gioakol/WorkerServiceFileWatcher" target="_blank">
-            <div class="card__background"
+          <a class="card-portfolio" href="https://github.com/gioakol/WorkerServiceFileWatcher" target="_blank">
+            <div class="card__portfolio__background"
               style="background-image: url(https://images.unsplash.com/photo-1557187666-4fd70cf76254?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)">
             </div>
-            <div class="card__content">
-              <p class="card__category">.Net Core, c#</p>
-              <h3 class="card__heading">File Wathcer</h3>
+            <div class="card__portfolio__content">
+              <p class="card__portfolio__category">.Net Core, c#</p>
+              <h3 class="card__portfolio__heading">File Wathcer</h3>
             </div>
           </a>
-          <a class="card" href="https://github.com/gioakol/.NET-Core/tree/main/WorkerServiceFileWatcher" target="_blank">
-            <div class="card__background"
+          <a class="card-portfolio" href="https://github.com/gioakol/CurriculumVitae-Front" target="_blank">
+            <div class="card__portfolio__background"
               style="background-image: url(https://images.unsplash.com/photo-1557187666-4fd70cf76254?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)">
             </div>
-            <div class="card__content">
-              <p class="card__category">Bootstrap, Javascript</p>
-              <h3 class="card__heading">Curriculum Vitae</h3>
+            <div class="card__portfolio__content">
+              <p class="card__portfolio__category">HTML, CSS, JavaScript</p>
+              <h3 class="card__portfolio__heading">Curriculum Vitae</h3>
             </div>
           </a>
-        <div>
-      <div>
+          <div>
+            <div>
     </section>
     <!-- End  Personal Portfolio Section -->
 
@@ -730,14 +734,24 @@
                 role="button" aria-expanded="false" aria-controls="collapsewithlinkKPMG">View more...</a>
               <div class="collapse" id="collapsewithlinkKPMG">
                 <div class="card card-body border border-white">
+                  <p><strong>Role:</strong> Full Stack Developer, Technical Lead</p>
+                  <p><strong>Responsibilities:</strong></p>
                   <ul>
-                    <li>Lead in the design, development, and implementation of the graphic, layout, and production
-                      communication materials</li>
-                    <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the
-                      project. </li>
-                    <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the
-                      design</li>
-                    <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                    <li>Define the technical architecture of the projects.</li>
+                    <li>Collaborate together with the QA, UX/UI, infrastructure, security and product Owner teams in
+                      defining requirements.</li>
+                    <li>Identify and define tasks to meet development requirements.</li>
+                    <li>Supervise and technically guide the development team.</li>
+                    <li>Develop laboratories to implement new improvements or projects.</li>
+                    <li>I lead code migrations to Azure, manage the creation and changes between development, QA and
+                      production branches.</li>
+                    <li>I supervise commits and pull requests made by developers.</li>
+                    <li>First, second and third level support.</li>
+                    <li>Technical documentation (architecture, infrastructure, user manuals).</li>
+                    <li>Integrations with external or internal systems.</li>
+                    <li>Perform code and database optimizations.</li>
+                    <li>Participation in change management within the area.</li>
+                    <li>Administration of database and application servers.</li>
                   </ul>
                 </div>
               </div>
@@ -750,14 +764,14 @@
                 role="button" aria-expanded="false" aria-controls="collapsewithlinkAthenea">View more...</a>
               <div class="collapse" id="collapsewithlinkAthenea">
                 <div class="card card-body border border-white">
+                  <p><strong>Role:</strong> Full Stack Developer</p>
+                  <p><strong>Responsibilities:</strong></p>
                   <ul>
-                    <li>Lead in the design, development, and implementation of the graphic, layout, and production
-                      communication materials</li>
-                    <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the
-                      project. </li>
-                    <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the
-                      design</li>
-                    <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                    <li>Identify and define tasks to meet development requirements.</li>
+                    <li>Third level support.</li>
+                    <li>Perform code and database optimizations.</li>
+                    <li>Development of new functionalities.</li>
+                    <li>Integrations with external or internal systems</li>
                   </ul>
                 </div>
               </div>
@@ -770,14 +784,12 @@
                 role="button" aria-expanded="false" aria-controls="collapsewithlinkElTiempo">View more...</a>
               <div class="collapse" id="collapsewithlinkElTiempo">
                 <div class="card card-body border border-white">
+                  <p><strong>Role:</strong> Software Engineer</p>
+                  <p><strong>Responsibilities:</strong></p>
                   <ul>
-                    <li>Lead in the design, development, and implementation of the graphic, layout, and production
-                      communication materials</li>
-                    <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the
-                      project. </li>
-                    <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the
-                      design</li>
-                    <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                    <li>Identify and define tasks to meet development requirements.</li>
+                    <li>First, second and third level support.</li>
+                    <li>Carry out code and database optimizations.</li>
                   </ul>
                 </div>
               </div>
@@ -790,14 +802,18 @@
                 role="button" aria-expanded="false" aria-controls="collapsewithlinkScripta">View more...</a>
               <div class="collapse" id="collapsewithlinkScripta">
                 <div class="card card-body border border-white">
+                  <p><strong>Role:</strong> Full Stack Developer, Technical Lead</p>
+                  <p><strong>Responsibilities:</strong></p>
                   <ul>
-                    <li>Lead in the design, development, and implementation of the graphic, layout, and production
-                      communication materials</li>
-                    <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the
-                      project. </li>
-                    <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the
-                      design</li>
-                    <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                    <li>Develop laboratories to implement new improvements / functionalities / projects.</li>
+                    <li>Supervise and technically guide the development team.</li>
+                    <li>Identify and define tasks to meet development requirements.</li>
+                    <li>First, second and third level support.</li>
+                    <li>Perform code and database optimizations.</li>
+                    <li>Technical documentation (architecture, infrastructure, user manuals).</li>
+                    <li>Perform code and database optimizations.</li>
+                    <li>Presentation of developments to clients.</li>
+                    <li>Administration of database and application servers.</li>
                   </ul>
                 </div>
               </div>
