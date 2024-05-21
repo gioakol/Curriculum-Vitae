@@ -57,10 +57,10 @@
       <ul>
         <li><a href="#home" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
         <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-        <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Skills</span></a></li>
+        <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-star"></i> <span>Skills</span></a></li>
         <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a>
         </li>
-        <li><a href="#sumary" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Sumary</span></a></li>
+        <li><a href="#sumary" class="nav-link scrollto"><i class="bx bx-category"></i> <span>Sumary</span></a></li>
         <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
       </ul>
     </nav>
@@ -110,7 +110,7 @@
             <div class="row">
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Available to travel: </strong> <span>Yes</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Available to travel: </strong> <span> yes (temporarily)</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Available to Freelance:</strong> <span>Yes</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Available to change job:</strong> <span>Yes</span>
                   </li>
@@ -679,41 +679,88 @@
     <!-- End skills Section -->
 
     <!-- ======= Personal Portfolio Section ======= -->
-    <section class="portfolio-section">
+    <section id="portfolio" class="portfolio section-bg">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
           <h2>Personal Portfolio</h2>
         </div>
-        <div class="card-portfolio-grid">
-          <a class="card-portfolio" href="https://github.com/gioakol/URLShorten" target="_blank">
-            <div class="card__portfolio__background"
-              style="background-image: url(https://images.unsplash.com/photo-1557177324-56c542165309?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)">
+        <div class="background">
+            <div class="centering">
+                <div class="articles">
+                    <article>
+                        <figure>
+                            <img src="assets/img/backgrounds/python.jpg" alt="Preview">
+                        </figure>
+                        <div class="article-preview">
+                            <h2>URL Shorten</h2>
+                            <p>
+                              Python Single Page Application (SPA)
+                            </p>
+                            <p>
+                                <a href="https://github.com/gioakol/URLShorten" class="read-more" title="Read More" target="_blank"> View Code </a>
+                            </p>
+                        </div>
+                    </article>
+                    <article>            
+                        <figure>
+                            <img src="assets/img/backgrounds/net core.png" alt="Preview">
+                        </figure>
+                        <div class="article-preview">
+                            <h2>File Wathcer</h2>
+                            <p>
+                              .Net Core, C#
+                            </p>
+                            <p>
+                                <a href="https://github.com/gioakol/WorkerServiceFileWatcher" class="read-more" title="Read More" target="_blank">View code</a>
+                            </p>
+                        </div>
+                    </article>
+                    <article>            
+                      <figure>
+                          <img src="assets/img/backgrounds/Java.jpg" alt="Preview">
+                      </figure>
+                      <div class="article-preview">
+                          <h2>Booking API</h2>
+                          <p>
+                            Java, Hibernate
+                          </p>
+                          <p>
+                              <a href="https://github.com/gioakol/BookingAPI" class="read-more" title="Read More" target="_blank">View code</a>
+                          </p>
+                      </div>
+                  </article>
+                  <article>            
+                    <figure>
+                        <img src="assets/img/backgrounds/Angular.webp" alt="Preview">
+                    </figure>
+                    <div class="article-preview">
+                        <h2>Support Platform</h2>
+                        <p>
+                          AngularJS, TypeScript
+                        </p>
+                        <p>
+                            <a href="https://github.com/gioakol/BookingAPI" class="read-more" title="Read More" target="_blank">View code</a> <strong>(in development)</strong> 
+                        </p>
+                    </div>
+                </article>
+                <article>            
+                  <figure>
+                      <img src="assets/img/backgrounds/React.png" alt="Preview">
+                  </figure>
+                  <div class="article-preview">
+                      <h2>Expense-Control</h2>
+                      <p>
+                        ReactJS, Vite, TypeScript
+                      </p>
+                      <p>
+                          <a href="https://github.com/gioakol/Expense-Control" class="read-more" title="Read More" target="_blank">View code</a> <strong>(in development)</strong>
+                      </p>
+                  </div>
+              </article>
+                </div>
             </div>
-            <div class="card__portfolio__content">
-              <p class="card__portfolio__category">Python</p>
-              <h3 class="card__portfolio__heading">URL Shorten</h3>
-            </div>
-          </a>
-          <a class="card-portfolio" href="https://github.com/gioakol/WorkerServiceFileWatcher" target="_blank">
-            <div class="card__portfolio__background"
-              style="background-image: url(https://images.unsplash.com/photo-1557187666-4fd70cf76254?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)">
-            </div>
-            <div class="card__portfolio__content">
-              <p class="card__portfolio__category">.Net Core, c#</p>
-              <h3 class="card__portfolio__heading">File Wathcer</h3>
-            </div>
-          </a>
-          <a class="card-portfolio" href="https://github.com/gioakol/CurriculumVitae-Front" target="_blank">
-            <div class="card__portfolio__background"
-              style="background-image: url(https://images.unsplash.com/photo-1557187666-4fd70cf76254?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)">
-            </div>
-            <div class="card__portfolio__content">
-              <p class="card__portfolio__category">HTML, CSS, JavaScript</p>
-              <h3 class="card__portfolio__heading">Curriculum Vitae</h3>
-            </div>
-          </a>
-          <div>
-            <div>
+        </div>
+      </div>
     </section>
     <!-- End  Personal Portfolio Section -->
 
@@ -822,58 +869,42 @@
           <div class="col-lg-6">
             <h3 class="resume-title">Certifications</h3>
             <div class="resume-item">
-              <h4>Scrum Foundation Professional Certification SFPC v2020 <a href="assets/img/portfolio/portfolio-1.jpg"
-                  data-gallery="portfolioGallery" class="portfolio-lightbox" title="Certification"><i
-                    class="bx bx-file-find"></i></a></h4>
+              <h4>Scrum Foundation Professional Certification SFPC v2020 </h4>
               <h5>2022</h5>
               <p>CertiProf</p>
             </div>
             <div class="resume-item">
-              <h4>Azure fundamentals AZ-900 <a href="assets/img/portfolio/MicrosoftAzureFundamentalsAZ900.png"
-                  data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i
-                    class="bx bx-file-find"></i></a></h4>
+              <h4>Azure fundamentals AZ-900 </h4>
               <h5>2022</h5>
               <p>Microsoft</p>
             </div>
             <div class="resume-item">
-              <h4>Cross-platform app development <a href="assets/img/portfolio/CrossPlatformAppDevelopment.png"
-                  data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i
-                    class="bx bx-file-find"></i></a></h4>
+              <h4>Cross-platform app development </h4>
               <h5>2021</h5>
               <p>Platzi</p>
             </div>
             <div class="resume-item">
-              <h4>Development with ASP.NET <a href="assets/img/portfolio/ApplicationDevelopmentWithAspNet.png"
-                  data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i
-                    class="bx bx-file-find"></i></a></h4>
+              <h4>Development with ASP.NET </h4>
               <h5>2021</h5>
               <p>Platzi</p>
             </div>
             <div class="resume-item">
-              <h4>Full Stack Developer With Javascript <a
-                  href="assets/img/portfolio/FullStackDeveloperWithJavascript.png" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title=""><i class="bx bx-file-find"></i></a></h4>
+              <h4>Full Stack Developer With Javascript </h4>
               <h5>2021</h5>
               <p>Platzi</p>
             </div>
             <div class="resume-item">
-              <h4>Web development school <a href="assets/img/portfolio/WebDevelopmentSchool.png"
-                  data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i
-                    class="bx bx-file-find"></i></a></h4>
+              <h4>Web development school </h4>
               <h5>2021</h5>
               <p>Platzi</p>
             </div>
             <div class="resume-item">
-              <h4>Programming Fundamentals <a href="assets/img/portfolio/ProgrammingFundamentals.png"
-                  data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i
-                    class="bx bx-file-find"></i></a></h4>
+              <h4>Programming Fundamentals </h4>
               <h5>2021</h5>
               <p>Platzi</p>
             </div>
             <div class="resume-item">
-              <h4>Oracle Database Management <a href="assets/img/portfolio/OracleDatabaseManagment.png"
-                  data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i
-                    class="bx bx-file-find"></i></a></h4>
+              <h4>Oracle Database Management </h4>
               <h5>2019</h5>
               <p>Politécnico Internacional, <em>Bogotá, Colombia</em></p>
             </div>
@@ -886,42 +917,32 @@
               <p>Politécnico Grancolombiano, <em>Bogotá, Colombia</em></p>
             </div>
             <div class="resume-item">
-              <h4>Mobile application development <a href="assets/img/portfolio/portfolio-1.jpg"
-                  data-gallery="portfolioGallery" class="portfolio-lightbox" title="Certification"><i
-                    class="bx bx-file-find"></i></a></h4>
+              <h4>Mobile application development </h4>
               <h5>2022 </h5>
               <p>Universidad Sergio Arboleda, <em>Bogotá, Colombia</em></p>
             </div>
             <div class="resume-item">
-              <h4>Software development <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title="Certification"><i class="bx bx-file-find"></i></a></h4>
+              <h4>Software development </h4>
               <h5>2022</h5>
               <p>Universidad Sergio Arboleda, <em>Bogotá, Colombia</em></p>
             </div>
             <div class="resume-item">
-              <h4>Basic programming with JAVA programming language <a href="assets/img/portfolio/portfolio-1.jpg"
-                  data-gallery="portfolioGallery" class="portfolio-lightbox" title="Certification"><i
-                    class="bx bx-file-find"></i></a></h4>
+              <h4>Basic programming with JAVA programming language </h4>
               <h5>2022</h5>
               <p>Politécnico Grancolombiano, <em>Bogotá, Colombia</em></p>
             </div>
             <div class="resume-item">
-              <h4>Programming with Python <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title="Certification"><i class="bx bx-file-find"></i></a></h4>
+              <h4>Programming with Python </h4>
               <h5>2022</h5>
               <p>Politécnico Grancolombiano, <em>Bogotá, Colombia</em></p>
             </div>
             <div class="resume-item">
-              <h4>Job technician in programming skills with emphasis on applications mobiles <a
-                  href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                  title="Certification"><i class="bx bx-file-find"></i></a></h4>
+              <h4>Job technician in programming skills with emphasis on applications mobiles </h4>
               <h5>2021 - 2022</h5>
               <p>Universidad Autónoma de Bucaramanga, <em>Bogotá, Colombia</em></p>
             </div>
             <div class="resume-item">
-              <h4>Professional software development technician <a href="assets/img/portfolio/portfolio-1.jpg"
-                  data-gallery="portfolioGallery" class="portfolio-lightbox" title="Certification"><i
-                    class="bx bx-file-find"></i></a></h4>
+              <h4>Professional software development technician </h4>
               <h5>2021 - 2022</h5>
               <p>Politécnico Internacional, <em>Bogotá, Colombia</em></p>
             </div>
