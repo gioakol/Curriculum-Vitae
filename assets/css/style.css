@@ -33,6 +33,9 @@
   --spacing-xl: 32px;
   --spacing-xxl: 64px;
   --width-container: 1200px;
+
+  --primary: #DD946F ;
+  --secondary: #261E5A;
 }
 
 body {
