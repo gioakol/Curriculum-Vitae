@@ -17,7 +17,7 @@
 }
 
 .articles article {
-  max-width: 20rem;
+  max-width: 16rem;
   cursor: pointer;
   position: relative;
   display: block;
@@ -50,13 +50,13 @@
 }
 
 .article-preview {
-  padding: 1.5rem;
+  padding: 1rem;
   background: white;
 }
 
 .articles figure {
   width: 100%;
-  height: 13rem;
+  height: 11rem;
   overflow: hidden;
 }
 
@@ -71,3 +71,6 @@
   transform: scale(1.5); 
 }
 
+figure{
+  margin: 0 !important;
+}
